@@ -5,7 +5,7 @@ import { styles } from "./BatLogo.style";
 
 const BatLogo = () => {
   return (
-    <View>
+    <View style={styles.container}>
       <Text style={styles.title}>BAT PASS GENERATOR</Text>
       <Image source={batLogo} style={styles.logo} />
     </View>
