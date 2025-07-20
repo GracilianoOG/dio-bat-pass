@@ -3,16 +3,16 @@ import { Pressable, Text } from "react-native";
 
 import { styles } from "./BatButton.style";
 
-const BatButton = () => {
+interface BatButtonProps {
+  children: string;
+  onPress: () => void;
+}
+
+const BatButton = (props: BatButtonProps) => {
   return (
-    <>
-      <Pressable style={styles.button} onPress={() => console.log("hello")}>
-        <Text style={styles.text}>GENERATE</Text>
-      </Pressable>
-      <Pressable style={styles.button} onPress={() => console.log("hello")}>
-        <Text style={styles.text}>🦇 COPY</Text>
-      </Pressable>
-    </>
+    <Pressable style={styles.button} onPress={props.onPress}>
+      <Text style={styles.text}>{props.children}</Text>
+    </Pressable>
   );
 };
 
