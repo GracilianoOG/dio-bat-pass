@@ -10,7 +10,7 @@ const Home = () => {
       <BatLogo />
       <BatTextInput />
       <Text>Component works!</Text>
-      <StatusBar style="auto" />
+      <StatusBar style="light" />
     </View>
   );
 };
