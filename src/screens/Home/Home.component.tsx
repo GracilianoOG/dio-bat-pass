@@ -11,7 +11,10 @@ const Home = () => {
       <BatLogo />
       <View style={styles.generatorContainer}>
         <BatTextInput />
-        <BatButton />
+        <BatButton onPress={() => console.log("Generate password")}>
+          GENERATE
+        </BatButton>
+        <BatButton onPress={() => console.log("Copy text")}>⚡ COPY</BatButton>
       </View>
       <Text>Component works!</Text>
       <StatusBar style="light" />
