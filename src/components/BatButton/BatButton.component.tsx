@@ -5,14 +5,14 @@ import { styles } from "./BatButton.style";
 
 const BatButton = () => {
   return (
-    <View>
+    <>
       <Pressable style={styles.button} onPress={() => console.log("hello")}>
         <Text style={styles.text}>GENERATE</Text>
       </Pressable>
       <Pressable style={styles.button} onPress={() => console.log("hello")}>
         <Text style={styles.text}>🦇 COPY</Text>
       </Pressable>
-    </View>
+    </>
   );
 };
 
