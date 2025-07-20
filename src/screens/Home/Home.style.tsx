@@ -10,6 +10,7 @@ const styles = StyleSheet.create({
   generatorContainer: {
     alignItems: "center",
     flexDirection: "column",
+    gap: 8,
     width: "80%",
   },
 });
