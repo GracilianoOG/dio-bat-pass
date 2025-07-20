@@ -6,6 +6,7 @@ import BatTextInput from "../../components/BatTextInput/BatTextInput.component";
 import BatButton from "../../components/BatButton/BatButton.component";
 import { useState } from "react";
 import generatePassword from "../../services/passwordService";
+import * as Clipboard from "expo-clipboard";
 
 const Home = () => {
   const [pass, setPass] = useState("");
@@ -15,13 +16,17 @@ const Home = () => {
     setPass(generatedToken);
   };
 
+  const handleCopy = async () => {
+    await Clipboard.setStringAsync(pass);
+  };
+
   return (
     <View style={styles.container}>
       <BatLogo />
       <View style={styles.generatorContainer}>
         <BatTextInput pass={pass} />
         <BatButton onPress={handlePasswordGeneration}>GENERATE</BatButton>
-        <BatButton onPress={() => console.log("Copy text")}>⚡ COPY</BatButton>
+        <BatButton onPress={handleCopy}>⚡ COPY</BatButton>
       </View>
       <Text>Component works!</Text>
       <StatusBar style="light" />
