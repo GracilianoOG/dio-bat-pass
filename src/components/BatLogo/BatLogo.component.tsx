@@ -7,7 +7,7 @@ const BatLogo = () => {
   return (
     <View>
       <Text style={styles.title}>BAT PASS GENERATOR</Text>
-      <Image source={batLogo} />
+      <Image source={batLogo} style={styles.logo} />
     </View>
   );
 };
