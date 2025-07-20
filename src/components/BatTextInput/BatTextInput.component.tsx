@@ -1,13 +1,9 @@
 import React from "react";
-import { TextInput, View } from "react-native";
+import { TextInput } from "react-native";
 import { styles } from "./BatTextInput.style";
 
 export const BatTextInput = () => {
-  return (
-    <View style={styles.container}>
-      <TextInput placeholder="pass" style={styles.input} />
-    </View>
-  );
+  return <TextInput placeholder="pass" style={styles.input} />;
 };
 
 export default BatTextInput;
