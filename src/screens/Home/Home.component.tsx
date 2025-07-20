@@ -4,16 +4,19 @@ import styles from "./Home.style";
 import BatLogo from "../../components/BatLogo/BatLogo.component";
 import BatTextInput from "../../components/BatTextInput/BatTextInput.component";
 import BatButton from "../../components/BatButton/BatButton.component";
+import { useState } from "react";
 
 const Home = () => {
+  const [pass, setPass] = useState("");
+
+  const handlePasswordGeneration = () => setPass("test");
+
   return (
     <View style={styles.container}>
       <BatLogo />
       <View style={styles.generatorContainer}>
-        <BatTextInput />
-        <BatButton onPress={() => console.log("Generate password")}>
-          GENERATE
-        </BatButton>
+        <BatTextInput pass={pass} />
+        <BatButton onPress={handlePasswordGeneration}>GENERATE</BatButton>
         <BatButton onPress={() => console.log("Copy text")}>⚡ COPY</BatButton>
       </View>
       <Text>Component works!</Text>
