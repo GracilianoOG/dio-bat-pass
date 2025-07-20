@@ -28,7 +28,6 @@ const Home = () => {
         <BatButton onPress={handlePasswordGeneration}>GENERATE</BatButton>
         <BatButton onPress={handleCopy}>⚡ COPY</BatButton>
       </View>
-      <Text>Component works!</Text>
       <StatusBar style="light" />
     </View>
   );
