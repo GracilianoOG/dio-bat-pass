@@ -7,4 +7,5 @@ export const styles = StyleSheet.create({
     fontSize: 30,
     color: "#E5BF3C",
   },
+  logo: { resizeMode: "contain", height: 180 },
 });
