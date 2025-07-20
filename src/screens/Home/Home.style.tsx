@@ -7,6 +7,11 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
+  generatorContainer: {
+    alignItems: "center",
+    flexDirection: "column",
+    width: "80%",
+  },
 });
 
 export default styles;
