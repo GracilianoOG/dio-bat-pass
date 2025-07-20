@@ -5,11 +5,15 @@ import BatLogo from "../../components/BatLogo/BatLogo.component";
 import BatTextInput from "../../components/BatTextInput/BatTextInput.component";
 import BatButton from "../../components/BatButton/BatButton.component";
 import { useState } from "react";
+import generatePassword from "../../services/passwordService";
 
 const Home = () => {
   const [pass, setPass] = useState("");
 
-  const handlePasswordGeneration = () => setPass("test");
+  const handlePasswordGeneration = () => {
+    const generatedToken = generatePassword();
+    setPass(generatedToken);
+  };
 
   return (
     <View style={styles.container}>
