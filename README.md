@@ -86,7 +86,7 @@ Os componentes são organizados em pastas com seu devido nome. O componente prin
 
 ## 🧑🏻‍💻 Autor
 
-| [<img src="https://avatars.githubusercontent.com/u/72778164?s=120&v=4"><br><sub>GracilianoOG</sub>](https://github.com/GracilianoOG)  |
+|  [<img src="https://avatars.githubusercontent.com/u/72778164?s=96&v=4"><br><sub>GracilianoOG</sub>](https://github.com/GracilianoOG)  |
 | :-----------------------------------------------------------------------------------------------------------------------------------: |
 |                                           [Linkedin](www.linkedin.com/in/gabrielgmbarros)                                             |
 
