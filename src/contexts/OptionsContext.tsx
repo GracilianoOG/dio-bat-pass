@@ -1,11 +1,5 @@
 import { createContext, ReactNode, useState } from "react";
-
-interface OptionTypes {
-  uppercase: boolean;
-  lowercase: boolean;
-  numeric: boolean;
-  special: boolean;
-}
+import { OptionTypes } from "../types/optionTypes";
 
 interface OptionsContextProps {
   setOptions: React.Dispatch<React.SetStateAction<OptionTypes>>;
