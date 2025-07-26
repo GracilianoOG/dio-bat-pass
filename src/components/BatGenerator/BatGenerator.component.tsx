@@ -9,10 +9,16 @@ import { OptionsContext } from "../../contexts/OptionsContext";
 
 export function BatGenerator() {
   const [pass, setPass] = useState("");
-  const options = useContext(OptionsContext);
+  const optionsContext = useContext(OptionsContext);
+
+  if (!optionsContext) {
+    throw new Error("OptionsContext is undefined!");
+  }
+
+  const { options } = optionsContext;
 
   const handlePasswordGeneration = () => {
-    const generatedToken = generatePassword(options?.options);
+    const generatedToken = generatePassword(options);
     setPass(generatedToken);
   };
 
