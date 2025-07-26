@@ -31,7 +31,7 @@ export default function App() {
             options={{
               tabBarLabel: "Generator",
               tabBarIcon: ({ color }) => (
-                <Ionicons name="home" size={24} color={color} />
+                <Ionicons name="lock-open-sharp" size={24} color={color} />
               ),
             }}
           ></Screen>
