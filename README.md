@@ -48,13 +48,16 @@ npm run start
 ## 🗂️ Estrutura do projeto
 
 ```
-📁 assets/ -> contém os assets (imagens) do projeto.
+📁 assets/ -> assets (imagens) do projeto.
 📁 src/
-  📁 components/ -> armazena os components separados em pastas.
-  📁 screens/ -> guarda as telas que serão compostas com os componentes.
-  📁 services/ -> inclui os serviços da aplicação.
-  📄 app.json -> armazena as configurações do app.
-  📄 images.d.ts -> guarda as declarações dos tipos de imagens.
+  📁 components/ -> componentes separados em pastas.
+  📁 constants/ -> constantes utilizadas no projeto.
+  📁 context/ -> contextos e providers.
+  📁 screens/ -> telas que serão compostas com os componentes.
+  📁 services/ -> serviços da aplicação.
+  📁 types/ -> arquivos de tipagens do TypeScript.
+  📄 app.json -> configurações do app.
+  📄 images.d.ts -> declarações dos tipos de imagens.
   📄 App.tsx -> entry point do app (componente principal).
 ```
 
