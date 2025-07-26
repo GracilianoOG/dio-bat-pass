@@ -1,24 +1,20 @@
 import { OptionTypes } from "../types/optionTypes";
+import * as Pass from "../constants/passwordPatterns";
 
 const generatePassword = (options: OptionTypes) => {
-  const UPPERCASE_LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  const LOWERCASE_LETTERS = "abcdefghijklmnopqrstuvwxyz";
-  const NUMERIC_CHARACTERS = "0123456789";
-  const SPECIAL_CHARACTERS = "!@#$%&*";
-
   let pattern: string = "";
 
   if (options.uppercase) {
-    pattern += UPPERCASE_LETTERS;
+    pattern += Pass.UPPERCASE_LETTERS;
   }
   if (options.lowercase) {
-    pattern += LOWERCASE_LETTERS;
+    pattern += Pass.LOWERCASE_LETTERS;
   }
   if (options.numeric) {
-    pattern += NUMERIC_CHARACTERS;
+    pattern += Pass.NUMERIC_CHARACTERS;
   }
   if (options.special) {
-    pattern += SPECIAL_CHARACTERS;
+    pattern += Pass.SPECIAL_CHARACTERS;
   }
 
   const password: string[] = [];
