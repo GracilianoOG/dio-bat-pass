@@ -1,5 +1,5 @@
 import { NavigationContainer } from "@react-navigation/native";
-import Home from "./src/screens/Home/Home.component";
+import HomeScreen from "./src/screens/HomeScreen/HomeScreen.component";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import Ionicons from "@expo/vector-icons/Ionicons";
 import { ConfigScreen } from "./src/screens/ConfigScreen/ConfigScreen.component";
@@ -27,7 +27,7 @@ export default function App() {
         >
           <Screen
             name="Home"
-            component={Home}
+            component={HomeScreen}
             options={{
               tabBarIcon: ({ color }) => (
                 <Ionicons name="home" size={24} color={color} />
