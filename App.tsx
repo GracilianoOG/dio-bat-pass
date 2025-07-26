@@ -29,6 +29,7 @@ export default function App() {
             name="Home"
             component={HomeScreen}
             options={{
+              tabBarLabel: "Generator",
               tabBarIcon: ({ color }) => (
                 <Ionicons name="home" size={24} color={color} />
               ),
@@ -38,6 +39,7 @@ export default function App() {
             name="Config"
             component={ConfigScreen}
             options={{
+              tabBarLabel: "Settings",
               tabBarIcon: ({ color }) => (
                 <Ionicons name="cog" size={24} color={color} />
               ),
