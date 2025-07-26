@@ -1,5 +1,24 @@
-const generatePassword = () => {
-  const pattern: string = "Gx7#pL9@kQ8!zT2&mV4#sR6dW1";
+const generatePassword = (options: any) => {
+  const UPPERCASE_LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  const LOWERCASE_LETTERS = "abcdefghijklmnopqrstuvwxyz";
+  const NUMERIC_CHARACTERS = "0123456789";
+  const SPECIAL_CHARACTERS = "!@#$%&*";
+
+  let pattern: string = "";
+
+  if (options.uppercase) {
+    pattern += UPPERCASE_LETTERS;
+  }
+  if (options.lowercase) {
+    pattern += LOWERCASE_LETTERS;
+  }
+  if (options.numeric) {
+    pattern += NUMERIC_CHARACTERS;
+  }
+  if (options.special) {
+    pattern += SPECIAL_CHARACTERS;
+  }
+
   const password: string[] = [];
   const PASS_LENGTH: number = 8;
 
