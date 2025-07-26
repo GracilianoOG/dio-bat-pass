@@ -83,6 +83,9 @@ Os componentes são organizados em pastas com seu devido nome. O componente prin
 - [Digital Innovation One](https://www.dio.me/)
 - [React Native Components](https://reactnative.dev/docs/components-and-apis)
 - [Expo Docs](https://docs.expo.dev/)
+- [useContext](https://react.dev/reference/react/useContext)
+- [Switch Component](https://reactnative.dev/docs/switch)
+- [Bottom Tabs](https://reactnavigation.org/docs/bottom-tab-navigator/)
 
 ## 🧑🏻‍💻 Autor
 
