@@ -13,4 +13,7 @@ export const styles = StyleSheet.create({
     fontSize: 32,
     marginBottom: 32,
   },
+  options: {
+    width: "100%",
+  },
 });

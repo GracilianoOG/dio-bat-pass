@@ -8,11 +8,7 @@ export function ConfigScreen() {
   return (
     <SafeAreaView style={styles.container}>
       <Text style={styles.mainTitle}>Settings</Text>
-      <View
-        style={{
-          width: "100%",
-        }}
-      >
+      <View style={styles.options}>
         <SwitchConfig />
       </View>
     </SafeAreaView>
