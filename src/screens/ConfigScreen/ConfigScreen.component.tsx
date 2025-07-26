@@ -10,6 +10,9 @@ export function ConfigScreen() {
       <Text style={styles.mainTitle}>Settings</Text>
       <View style={styles.options}>
         <SwitchConfig title="Uppercase characters" />
+        <SwitchConfig title="Lowercase characters" />
+        <SwitchConfig title="Numeric characters" />
+        <SwitchConfig title="Special characters" />
       </View>
     </SafeAreaView>
   );
