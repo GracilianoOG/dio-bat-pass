@@ -6,7 +6,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 export function ConfigScreen() {
   return (
     <SafeAreaView style={styles.container}>
-      <Text>Settings</Text>
+      <Text style={styles.mainTitle}>Settings</Text>
     </SafeAreaView>
   );
 }

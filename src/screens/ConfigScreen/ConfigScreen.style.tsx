@@ -7,4 +7,8 @@ export const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
   },
+  mainTitle: {
+    color: "#fff",
+    fontSize: 32,
+  },
 });
