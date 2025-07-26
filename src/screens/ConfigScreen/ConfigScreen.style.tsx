@@ -10,5 +10,6 @@ export const styles = StyleSheet.create({
   mainTitle: {
     color: "#fff",
     fontSize: 32,
+    marginBottom: 32,
   },
 });
