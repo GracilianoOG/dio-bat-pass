@@ -1,16 +1,18 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { View } from "react-native";
 import { styles } from "./BatGenerator.style";
 import BatTextInput from "../BatTextInput/BatTextInput.component";
 import BatButton from "../BatButton/BatButton.component";
 import * as Clipboard from "expo-clipboard";
 import generatePassword from "../../services/passwordService";
+import { OptionsContext } from "../../contexts/OptionsContext";
 
 export function BatGenerator() {
   const [pass, setPass] = useState("");
+  const options = useContext(OptionsContext);
 
   const handlePasswordGeneration = () => {
-    const generatedToken = generatePassword();
+    const generatedToken = generatePassword(options?.options);
     setPass(generatedToken);
   };
 
