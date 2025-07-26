@@ -9,7 +9,7 @@ export function ConfigScreen() {
     <SafeAreaView style={styles.container}>
       <Text style={styles.mainTitle}>Settings</Text>
       <View style={styles.options}>
-        <SwitchConfig />
+        <SwitchConfig title="Uppercase characters" />
       </View>
     </SafeAreaView>
   );
