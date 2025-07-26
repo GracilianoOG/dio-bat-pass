@@ -34,7 +34,7 @@ export default function App() {
                 <Ionicons name="lock-open-sharp" size={24} color={color} />
               ),
             }}
-          ></Screen>
+          />
           <Screen
             name="Config"
             component={ConfigScreen}
@@ -44,7 +44,7 @@ export default function App() {
                 <Ionicons name="cog" size={24} color={color} />
               ),
             }}
-          ></Screen>
+          />
         </Navigator>
       </NavigationContainer>
     </OptionsProvider>
