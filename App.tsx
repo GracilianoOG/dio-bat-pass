@@ -4,6 +4,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import Ionicons from "@expo/vector-icons/Ionicons";
 import { ConfigScreen } from "./src/screens/ConfigScreen/ConfigScreen.component";
 import { OptionsProvider } from "./src/contexts/OptionsContext";
+import { InfoScreen } from "./src/screens/InfoScreen/InfoScreen.component";
 
 const { Navigator, Screen } = createBottomTabNavigator();
 
@@ -42,6 +43,20 @@ export default function App() {
               tabBarLabel: "Settings",
               tabBarIcon: ({ color }) => (
                 <Ionicons name="cog" size={24} color={color} />
+              ),
+            }}
+          />
+          <Screen
+            name="Info"
+            component={InfoScreen}
+            options={{
+              tabBarLabel: "Info",
+              tabBarIcon: ({ color }) => (
+                <Ionicons
+                  name="information-circle-sharp"
+                  size={24}
+                  color={color}
+                />
               ),
             }}
           />
