@@ -1,12 +1,12 @@
 import React from "react";
 import { Text, View } from "react-native";
-
 import { styles } from "./ConfigScreen.style";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export function ConfigScreen() {
   return (
-    <View style={styles.container}>
-      <Text>HELLO CONFIG</Text>
-    </View>
+    <SafeAreaView style={styles.container}>
+      <Text>Settings</Text>
+    </SafeAreaView>
   );
 }
