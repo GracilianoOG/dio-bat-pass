@@ -20,7 +20,7 @@ export default function App() {
               borderTopWidth: 1,
             },
             tabBarLabelStyle: {
-              fontSize: 14,
+              fontSize: 12,
               textTransform: "uppercase",
             },
           }}
