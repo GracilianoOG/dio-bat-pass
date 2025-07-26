@@ -1,4 +1,6 @@
-const generatePassword = (options: any) => {
+import { OptionTypes } from "../types/optionTypes";
+
+const generatePassword = (options: OptionTypes) => {
   const UPPERCASE_LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   const LOWERCASE_LETTERS = "abcdefghijklmnopqrstuvwxyz";
   const NUMERIC_CHARACTERS = "0123456789";
