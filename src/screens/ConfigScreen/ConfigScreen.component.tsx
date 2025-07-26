@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { Switch, Text, View } from "react-native";
+import { Text, View } from "react-native";
 import { styles } from "./ConfigScreen.style";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { SwitchConfig } from "../../components/SwitchConfig/SwitchConfig.component";
