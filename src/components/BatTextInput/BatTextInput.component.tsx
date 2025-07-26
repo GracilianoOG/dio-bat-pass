@@ -8,7 +8,11 @@ interface BatTextInputProps {
 
 export const BatTextInput = (props: BatTextInputProps) => {
   return (
-    <TextInput placeholder="pass" style={styles.input} value={props.pass} />
+    <TextInput
+      placeholder="generate a password..."
+      style={styles.input}
+      value={props.pass}
+    />
   );
 };
 
