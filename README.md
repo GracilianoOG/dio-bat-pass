@@ -99,6 +99,8 @@ Os componentes são organizados em pastas com seu devido nome. O componente prin
 - Implementa funcionalidades de clipboard com `expo-clipboard`.
 - Desenvolvido com `TypeScript` para garantir tipagem forte e maior segurança.
 - Ferramentas de desenvolvimento com suporte a tipagens do React.
+- Navegação entre as telas desenvolvida com o pacote `bottom-tabs`, que permite adicionar abas na parte inferior da tela.
+- Persistência dos dados feita com o pacote `async-storage`.
 
 ## 🔗 Links
 
