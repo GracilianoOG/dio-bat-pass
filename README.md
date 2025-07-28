@@ -4,25 +4,6 @@
 
 Este projeto se consiste em um gerador de senhas fortes desenvolvido com React Native, TypeScript e Expo na temática do Batman. Foi o meu primeiro contato utilizando React Native e aprendi bastante sobre os componentes específicos do framework e a trabalhar com o sistema android lado a lado através de emuladores e pelo Expo Go.
 
-## 📲 Telas
-
-### Tela `Generator`
-
-Tela inicial do aplicativo. Ela contém o campo que aparece a senha gerada, um botão para gerar uma nova senha aleatória e um botão para copiar a senha gerada.
-
-### Tela `Settings`
-
-Configurações disponíveis para customizar a senha. O usuário pode habilitar ou desabilitar características da senha gerada, como:
-
-- Caracteres maiúsculos
-- Caracteres minúsculos
-- Caracteres numéricos
-- Caracteres especiais
-
-### Tela `Info`
-
-Informações adicionais sobre o desenvolvedor e algumas das tecnologias usadas no desenvolvimento do app.
-
 ## 📦 Instalação local
 
 1. Clone este repositório:
@@ -88,6 +69,25 @@ Os componentes são organizados em pastas com seu devido nome. O componente prin
     📄 BatButton.component.tsx
     📄 BatButton.style.tsx
 ```
+
+## 📲 Telas
+
+### Tela `Generator`
+
+Tela inicial do aplicativo. Ela contém o campo que aparece a senha gerada, um botão para gerar uma nova senha aleatória e um botão para copiar a senha gerada.
+
+### Tela `Settings`
+
+Configurações disponíveis para customizar a senha. O usuário pode habilitar ou desabilitar características da senha gerada, como:
+
+- Caracteres maiúsculos
+- Caracteres minúsculos
+- Caracteres numéricos
+- Caracteres especiais
+
+### Tela `Info`
+
+Informações adicionais sobre o desenvolvedor e algumas das tecnologias usadas no desenvolvimento do app.
 
 ## 🛠️ Ferramentas e tecnologias
 
