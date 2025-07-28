@@ -110,6 +110,7 @@ Informações adicionais sobre o desenvolvedor e algumas das tecnologias usadas 
 - [useContext](https://react.dev/reference/react/useContext)
 - [Switch Component](https://reactnative.dev/docs/switch)
 - [Bottom Tabs](https://reactnavigation.org/docs/bottom-tab-navigator/)
+- [Async Storage](https://react-native-async-storage.github.io/async-storage/docs/install)
 
 ## 🧑🏻‍💻 Autor
 
